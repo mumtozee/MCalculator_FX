@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="body" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="177.0" prefWidth="306.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculatorfx.FXMLDocumentController">
+   <children>
+      <TextField fx:id="ekran" alignment="CENTER_RIGHT" disable="true" layoutX="14.0" layoutY="12.0" prefHeight="25.0" prefWidth="280.0" promptText="0" />
+      <Button fx:id="seven" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onAction="#ClickNumBtn7" text="7" />
+      <Button fx:id="eight" layoutX="72.0" layoutY="45.0" mnemonicParsing="false" onAction="#ClickNumBtn8" text="8" />
+      <Button fx:id="nine" layoutX="129.0" layoutY="45.0" mnemonicParsing="false" onAction="#ClickNumBtn9" text="9" />
+      <Button fx:id="four" layoutX="14.0" layoutY="77.0" mnemonicParsing="false" onAction="#ClickNumBtn4" text="4" />
+      <Button fx:id="five" layoutX="72.0" layoutY="77.0" mnemonicParsing="false" onAction="#ClickNumBtn5" text="5" />
+      <Button fx:id="six" layoutX="129.0" layoutY="77.0" mnemonicParsing="false" onAction="#ClickNumBtn6" text="6" />
+      <Button fx:id="one" layoutX="14.0" layoutY="109.0" mnemonicParsing="false" onAction="#ClickNumBtn1" text="1" />
+      <Button fx:id="two" layoutX="72.0" layoutY="109.0" mnemonicParsing="false" onAction="#ClickNumBtn2" text="2" />
+      <Button fx:id="three" layoutX="129.0" layoutY="109.0" mnemonicParsing="false" onAction="#ClickNumBtn3" text="3" />
+      <Button fx:id="zero" layoutX="14.0" layoutY="141.0" mnemonicParsing="false" onAction="#ClickNumBtn0" text="0" />
+      <Button fx:id="dot" layoutX="72.0" layoutY="141.0" mnemonicParsing="false" onAction="#ClickNumBtnDot" text=" ." />
+      <Button fx:id="plmin" layoutX="129.0" layoutY="141.0" mnemonicParsing="false" onAction="#PlusMinus" prefHeight="25.0" prefWidth="24.0" text="+/-" />
+      <Button fx:id="plus" layoutX="186.0" layoutY="141.0" mnemonicParsing="false" onAction="#PlusNums" text="+" />
+      <Button fx:id="minus" layoutX="186.0" layoutY="109.0" mnemonicParsing="false" onAction="#MinusNums" text="-" />
+      <Button fx:id="mult" layoutX="186.0" layoutY="78.0" mnemonicParsing="false" onAction="#MultNums" text="*" />
+      <Button fx:id="divide" layoutX="186.0" layoutY="45.0" mnemonicParsing="false" onAction="#DivNums" text="/" />
+      <Button fx:id="back" layoutX="244.0" layoutY="78.0" mnemonicParsing="false" onAction="#Reset1" prefHeight="25.0" prefWidth="24.0" text="&lt;-" />
+      <Button fx:id="clear" layoutX="244.0" layoutY="45.0" mnemonicParsing="false" onAction="#ClearScreen" text="C" />
+      <Button fx:id="equal" layoutX="244.0" layoutY="109.0" mnemonicParsing="false" onAction="#Equals" prefHeight="57.0" text="=" />
+   </children>
+</Pane>
